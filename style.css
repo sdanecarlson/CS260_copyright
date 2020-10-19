@@ -1,0 +1,172 @@
+.pageContainer{
+    display: flex;
+    background-color: #26292e;
+}
+
+.innerContainer{
+    flex-direction: row;
+}
+
+.logoRow {
+    width: 100%;
+    align-content: center;
+}
+
+.logoRow img{
+    width: 200px;
+    align-content: center;
+}
+
+.definitionCard {
+    margin-left: 3vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-bottom: 2vw;
+    font-family: "Helvetica Neue"; font-size: 72px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: white;
+    border: solid;
+}
+
+.definitionCard h1{
+    font-family: "Helvetica Neue"; font-size: 48px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.definitionCard h2{
+    font-family: "Helvetica Neue"; font-size: 24px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.resultsHeader {
+
+    padding-left: 15vw;
+    font-family: "Helvetica Neue"; font-size: 72px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.resultsHeader {
+
+    padding-left: 15vw;
+    font-family: "Helvetica Neue"; font-size: 72px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.resultsHeader h2{
+    padding-bottom: 2vw;
+    padding-top: 0;
+    font-family: "Helvetica Neue"; font-size: 24px;
+}
+
+.resultsHeader form{
+    padding-bottom: 2vw;
+    font-family: "Helvetica Neue"; font-size: 24px;
+}
+
+.resultsHeader input {
+    width: 60vw;
+}
+
+.resultsHeader button {
+    font-family: "Helvetica Neue"; font-size: 24px;
+    color: white;
+    background-color: #26292e;
+    border-color: white;
+    border-radius: .5px;
+}
+
+.synonymHeader h2{
+    font-family: "Helvetica Neue"; font-size: 24px; font-weight: 300;
+}
+
+.sitemapHeader {
+    padding-left: 15vw;
+    padding-top: 8vw;
+    font-family: "Helvetica Neue"; font-size: 72px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.sitemapHeader h2{
+    padding-bottom: 2vw;
+    padding-top: 0;
+    font-family: "Helvetica Neue"; font-size: 24px;
+}
+
+.sitemapHeader form{
+    padding-bottom: 2vw;
+    padding-top: 0;
+    font-family: "Helvetica Neue"; font-size: 24px;
+}
+
+.sitemapHeader input {
+    width: 60vw;
+}
+
+.navHomeCol{
+    width: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.navHomeCol h1{
+    font-family: "Helvetica Neue"; font-size: 26px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.navHomeCol h2{
+    font-family: "Helvetica Neue"; font-size: 16px;
+    color: white;
+    font-weight: 200;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+
+.navHomeCol h2:hover{
+    font-weight: 500;
+}
+
+body{
+    margin: 0;
+    background-color: #26292e;
+}
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;            
+    background-color:white;
+    height: 1px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: .5vw;
+}
+
+footer h2{
+    font-family: "Helvetica Neue"; font-size: .8vw;
+    color: white;
+    font-weight: 200;
+    line-height: 1.2vw;
+    letter-spacing: 1px;
+}
